@@ -1,0 +1,69 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background: #0b1220;
+  color: #eaeef6;
+}
+header {
+  padding: 24px 16px;
+  text-align: center;
+  background: linear-gradient(135deg, #0e1a2b, #192a45);
+  border-bottom: 1px solid #223356;
+}
+h1 { margin: 0 0 8px 0; font-size: 28px; }
+.subtitle { margin: 0; opacity: 0.8; }
+main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+.card {
+  background: #111a2e;
+  border: 1px solid #24365c;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+h2 { margin-top: 0; }
+form .grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+label { display: flex; flex-direction: column; font-size: 14px; gap: 6px; }
+input, select {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #2c3f68;
+  background: #0c1527;
+  color: #eaeef6;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 12px;
+  background: #2f7bff;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 8px 16px rgba(47,123,255,0.35);
+}
+button:hover { transform: translateY(-1px); }
+#form-msg { margin-left: 12px; font-size: 14px; opacity: .9; }
+
+.summary { display: grid; grid-template-columns: 220px 1fr; gap: 16px; align-items: start; }
+.summary-box { background: #0c1527; border: 1px solid #2c3f68; border-radius: 12px; padding: 16px; }
+.summary-label { opacity: .8; font-size: 14px; }
+.summary-value { font-size: 26px; font-weight: 700; margin-top: 6px; }
+.chart-wrap { background: #0c1527; border: 1px solid #2c3f68; border-radius: 12px; padding: 12px; }
+
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border-bottom: 1px solid #2c3f68; text-align: left; }
+tr:hover td { background: #0e1830; }
+td:last-child { text-align: right; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: #1e2d4f; border: 1px solid #2c3f68; font-size: 12px; }
+
+footer { text-align: center; padding: 24px; opacity: .7; }
+@media (max-width: 900px) {
+  form .grid { grid-template-columns: 1fr 1fr; }
+  .summary { grid-template-columns: 1fr; }
+}
