@@ -57,7 +57,7 @@ carbon-footprint-tracker/
 ```
 
 ## 📸 Preview
-<img width="1562" height="895" alt="Screenshot 2025-08-16 013101" src="https://github.com/user-attachments/assets/1984ebc1-6489-4aa9-8265-e69e0529d976" />
+ <img width="1562" height="895" alt="Screenshot 2025-08-16 013101" src="https://github.com/user-attachments/assets/1984ebc1-6489-4aa9-8265-e69e0529d976" />
 
 ## Notes
 - This demo skips authentication for simplicity.
